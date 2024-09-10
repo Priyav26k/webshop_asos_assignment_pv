@@ -1,7 +1,5 @@
 import unittest
-
 from selenium.webdriver.chrome import webdriver
-
 from pages.asos_home_page import AsosHomePage
 
 
