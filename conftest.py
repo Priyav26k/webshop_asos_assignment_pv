@@ -1,19 +1,17 @@
+# conftest.py
 import pytest
-from utils.webdriver_factory import WebDriverFactory
+from selenium import webdriver
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture(scope="session")
 def driver():
-    driver = WebDriverFactory.get_driver()
+    config = json.load(open("config/config.json"))
+    browser = config["browser"]
+    if browser == "chrome":
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
+        driver = webdriver.Chrome(options=options)
+    else:
+        raise ValueError("Unsupported browser")
     yield driver
     driver.quit()
-
-
-@pytest.fixture(scope="function")
-def home_page(driver):
-    return WebDriverFactory.get_home_page(driver)
-
-
-@pytest.fixture(scope="function")
-def product_page(driver):
-    return WebDriverFactory.get_product_page(driver)

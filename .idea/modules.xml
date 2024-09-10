@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EcomFlowAutomation.iml" filepath="$PROJECT_DIR$/.idea/EcomFlowAutomation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/asos-webshop-testing.iml" filepath="$PROJECT_DIR$/.idea/asos-webshop-testing.iml" />
     </modules>
   </component>
 </project>
