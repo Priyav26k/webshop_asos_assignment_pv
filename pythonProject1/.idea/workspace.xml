@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="837a70c9-8539-44cc-922c-0d4f1042c65c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../pages/asos_home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pages/asos_product_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pages/asos_search_results_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reports/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reports/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_asos_home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_asos_product_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_asos_search_results_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/EcomFlowAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/asos-webshop-testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Config_local" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker_compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config/config.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2lsZTWAPB7xOwMeULgdjFeJz3pk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="837a70c9-8539-44cc-922c-0d4f1042c65c" name="Changes" comment="" />
+      <created>1725970753614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725970753614</updated>
+    </task>
+    <servers />
+  </component>
+</project>
