@@ -21,6 +21,7 @@ To use this project, follow these guidelines:
 **Running tests**: pytest
 Customizing test configurations: config.ini file
 Integrating with CI/CD pipelines: docker-compose.yml file
+
 **Contributing**
 If you'd like to contribute to this project, please:
 
