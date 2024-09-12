@@ -1,11 +1,16 @@
 import unittest
-from selenium.webdriver.chrome import webdriver
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+
 from pages.asos_home_page import AsosHomePage
 
 
 class TestAsosHomePage(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        options = Options()  # Initialize Chrome options
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         self.driver.get("https://www.asos.com")
         self.home_page = AsosHomePage(self.driver)
 

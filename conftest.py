@@ -1,5 +1,5 @@
-# conftest.py
 import pytest
+from pandas.io import json
 from selenium import webdriver
 
 

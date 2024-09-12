@@ -15,3 +15,5 @@ This project contains automated tests for the ASOS web shop using Python, Seleni
 ## Running the Tests
 
 To run the tests, execute the following command:
+
+pytest
